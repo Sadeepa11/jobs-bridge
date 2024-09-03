@@ -1,0 +1,7 @@
+.inline-list {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    display: flex; /* Align items in one line */
+    gap: 2%; /* Thin spacing between items */
+  }

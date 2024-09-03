@@ -1,0 +1,12 @@
+@font-face {
+    font-family: laila;
+    src: url("assets/fonts/Laila-Light.ttf");
+}
+
+.searchLabel1 {
+    font-size: 25px;
+    color: black;
+    font-family: laila;
+    font-weight: bold;
+  
+  }

@@ -1,0 +1,49 @@
+.NAVBAR{
+    border-radius: 10px;
+
+
+    
+   
+    
+    
+}
+
+
+
+.glass-background {
+    background: rgba(0, 0, 0, 0.209); /* White with some transparency */
+    padding: 2px; /* Spacing inside the div */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+    backdrop-filter: blur(10px); /* Frosted glass effect */
+    -webkit-backdrop-filter: blur(10px); /* For Safari */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Light border */
+  }
+
+  .inline-list {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    display: flex; /* Align items in one line */
+    gap: 2%; /* Thin spacing between items */
+  }
+
+  /* .searchInput{
+    border-radius: 10px;
+    border: 1px solid transparent;
+    width: 220%;
+    margin-left: -20%;
+    height: 5vh;
+  } */
+.logo-img{
+
+height: 4vh;
+
+border-radius: 50%;
+
+
+
+}
+
+
+
+  

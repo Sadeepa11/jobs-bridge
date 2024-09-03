@@ -1,0 +1,45 @@
+.animeBtn {
+
+    position: relative;
+    background-color: transparent;
+    color: black;
+    border-radius: 20px;
+    border: 1px solid black; /* Fixed typo: 'sloid' -> 'solid' */
+    /* width: 20%; */
+    padding: 1%;
+    height: 8vh;
+    overflow: hidden; /* Ensures pseudo-elements are confined within the button */
+    font-size: 16px; /* Adjust as needed */
+    font-weight: bold; /* Optional: Make the text bold */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    transition: color 0.3s ease, border-color 0.3s ease; /* Smooth transition for color and border */
+  }
+  
+  .animeBtn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black; /* Background color on hover */
+    transform: scaleX(0); /* Starts with no visible background */
+    transform-origin: left; /* Expands from left to right */
+    transition: transform 0.3s ease; /* Smooth transition */
+    z-index: 0; /* Places it behind the text */
+  }
+  
+  .animeBtn:hover::before {
+    transform: scaleX(1); /* Expands background on hover */
+  }
+  
+  .animeBtn:hover {
+    color: white; /* Changes text color on hover */
+    border-color: transparent; /* Optionally hide the border */
+  }
+  
+  .animeBtn span {
+    position: relative; /* Ensures text is on top of the pseudo-element */
+    z-index: 1;
+  }
+  
